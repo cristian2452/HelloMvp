@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HelloMvp</string>
+    <string name="button_update_name">Update Message</string>
+</resources>
