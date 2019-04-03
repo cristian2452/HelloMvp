@@ -11,10 +11,13 @@ public class PresenterImpl implements HelloMvp.Presenter {
         this.mView = myView;
         model = new MyModel();
         model.setMessage("Cambio de estado");
+
     }
 
     @Override
     public void updateMessage() {
         mView.showMessage(model.getMessage());
     }
+
+
 }
